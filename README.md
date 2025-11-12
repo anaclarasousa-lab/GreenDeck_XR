@@ -1,5 +1,5 @@
 # READ ME
-# Proyecto VR : 
+Proyecto VR : 
     Integrantes: 
         Addaia Ferrés Tudurí
         Alexandra Enache Potoaca
