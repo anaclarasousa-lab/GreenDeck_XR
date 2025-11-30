@@ -16,7 +16,7 @@ public class SpawnCarta : MonoBehaviour
         {
             GameObject spawnedCube = Instantiate(cubePrefab, transform.position, transform.rotation);
             Rigidbody cubeRigibody = spawnedCube.GetComponent<Rigidbody>();
-            cubeRigibody.velocity = transform.forward * spawnSpeed;
+            cubeRigibody.linearVelocity = transform.forward * spawnSpeed;
         }
     }
 }
