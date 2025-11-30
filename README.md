@@ -1,68 +1,56 @@
-# \# Green Deck
+# \## Green Deck
 
-# 
+Green Deck  se trata de una experiencia de realidad mixta para transformar cualquier hogar en un pequeño ecosistema interactivo.
 
-# Green Deck  se trata de una experiencia de realidad mixta para transformar cualquier hogar en un pequeño ecosistema interactivo.
+Desde la combinación entre videojuegos casuales y experiencia de realidad mixta, surge la intención de que, cualquier persona, por pequeña que sea su vivienda, pueda tener su jardín, de manera accesible.
 
-# Desde la combinación entre videojuegos casuales y experiencia de realidad mixta, surge la intención de que, cualquier persona, por pequeña que sea su vivienda, pueda tener su jardín, de manera accesible.
-
-# 
 
 # \## Instalación
 
-# 
 
-# TODO: Describe the installation process
+TODO: Describe the installation process
 
-# 
 
 # \## Funciones
 
-# 
 
-# Manipular las cartas y organizarlas en su inventario.
+Manipular las cartas y organizarlas en su inventario.
 
-# Ubicar las plantas en las diferentes macetas interactuables.
+Ubicar las plantas en las diferentes macetas interactuables.
 
-# Mover, rotar, redimensionar y borrar plantas.
+Mover, rotar, redimensionar y borrar plantas.
 
-# Organizar las diferentes macetas en la superficie.
+Organizar las diferentes macetas en la superficie.
 
-# Desencadenar eventos meteorológicos a través de botones.
+Desencadenar eventos meteorológicos a través de botones.
 
-# 
 
 # \## Creado por:
 
-# 
+Emma Calero
 
-# Emma Calero
+Alexandra Enache
 
-# Alexandra Enache
+Addaia Ferrés
 
-# Addaia Ferrés
+Aina Cuffí
 
-# Aina Cuffí
+Ana Clara Sousa
 
-# Ana Clara Sousa
 
-# 
 
 # \## Nomenclatura
 
-# La nomenclatura dentro del proyecto de Unity se organiza de esta manera:
+La nomenclatura dentro del proyecto de Unity se organiza de esta manera:
 
-# 
 
-# CarpetaUnity\_NombreBreve\_Vx
 
-# 
+CarpetaUnity\_NombreBreve\_Vx
 
-# Ejemplo: Si se trata de un Modelo 3D de una maceta grande en la versión 8. Se nombraría: 
 
-# 
 
-# Modelo3D\_MacetaGrande\_v8
+Ejemplo: Si se trata de un Modelo 3D de una maceta grande en la versión 8. Se nombraría: 
 
-# 
+
+Modelo3D\_MacetaGrande\_v8
 
