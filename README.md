@@ -9,9 +9,13 @@ Desde la combinación entre videojuegos casuales y experiencia de realidad mixta
 
 
 Paso 1: Ir a configuración del espacio en su HMD
+
 Paso 2: Definir el espacio y las superfícies
+
 Paso 3: Activar permiso de datos espaciales a Green Deck
+
 Paso 4: Abrir Green Deck desde orígenes desconocidos en la biblioteca
+
 Paso 5: Probar el juego :)
 
 # Funciones
