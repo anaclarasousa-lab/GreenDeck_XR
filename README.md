@@ -1,17 +1,20 @@
-# \ Green Deck
+# Green Deck
 
 Green Deck  se trata de una experiencia de realidad mixta para transformar cualquier hogar en un pequeño ecosistema interactivo.
 
 Desde la combinación entre videojuegos casuales y experiencia de realidad mixta, surge la intención de que, cualquier persona, por pequeña que sea su vivienda, pueda tener su jardín, de manera accesible.
 
 
-# \ Instalación
+# Instalación
 
 
-TODO: Describe the installation process
+Paso 1: Ir a configuración del espacio en su HMD
+Paso 2: Definir el espacio y las superfícies
+Paso 3: Activar permiso de datos espaciales a Green Deck
+Paso 4: Abrir Green Deck desde orígenes desconocidos en la biblioteca
+Paso 5: Probar el juego :)
 
-
-# \ Funciones
+# Funciones
 
 
 Manipular las cartas y organizarlas en su inventario.
@@ -25,7 +28,7 @@ Organizar las diferentes macetas en la superficie.
 Desencadenar eventos meteorológicos a través de botones.
 
 
-# \ Creado por:
+# Creado por:
 
 Emma Calero
 
@@ -39,7 +42,7 @@ Ana Clara Sousa
 
 
 
-# \ Nomenclatura
+# Nomenclatura
 
 La nomenclatura dentro del proyecto de Unity se organiza de esta manera:
 
