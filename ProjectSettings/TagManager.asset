@@ -12,6 +12,11 @@ TagManager:
   - Green
   - Blue
   - Red
+  - Photos
+  - Violeta
+  - Tulipan
+  - Amarilis
+  - Monstera
   layers:
   - Default
   - TransparentFX
