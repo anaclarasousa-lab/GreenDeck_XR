@@ -170,6 +170,7 @@ GameObject:
   - component: {fileID: 47502857}
   - component: {fileID: 47502856}
   - component: {fileID: 47502855}
+  - component: {fileID: 47502861}
   m_Layer: 0
   m_Name: Prefab_CartaBlocking_Tulipan
   m_TagString: Tulipan
@@ -415,6 +416,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -29.656, y: 0, z: 0}
+--- !u!114 &47502861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 47502854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26b7751a07007c1458fc740a79d75247, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &47982597
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10953,6 +10966,7 @@ GameObject:
   - component: {fileID: 848329101}
   - component: {fileID: 848329100}
   - component: {fileID: 848329099}
+  - component: {fileID: 848329105}
   m_Layer: 0
   m_Name: Prefab_CartaBlocking_Amarilis
   m_TagString: Amarilis
@@ -11198,6 +11212,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -29.656, y: 0, z: 0}
+--- !u!114 &848329105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 848329098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26b7751a07007c1458fc740a79d75247, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &874645815
 GameObject:
   m_ObjectHideFlags: 0
@@ -11529,7 +11555,6 @@ MonoBehaviour:
   violetaPrefab: {fileID: 132877659074530079, guid: 42f5b43c2324dde4b8bf08b27debadfe, type: 3}
   tulipanPrefab: {fileID: 7077831714205203090, guid: 45cb56319386d584f8c55bdad27eb78e, type: 3}
   amarilisPrefab: {fileID: 4009503205391781614, guid: 8afe6e9b6ecac484db0074e580458224, type: 3}
-  currentPlant: {fileID: 0}
 --- !u!4 &894720806 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3386409087125085481, guid: 8afe6e9b6ecac484db0074e580458224, type: 3}
@@ -11957,6 +11982,7 @@ GameObject:
   - component: {fileID: 1269911692}
   - component: {fileID: 1269911691}
   - component: {fileID: 1269911690}
+  - component: {fileID: 1269911696}
   m_Layer: 0
   m_Name: Prefab_CartaBlocking_Monstera
   m_TagString: Monstera
@@ -12202,6 +12228,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -29.656, y: 0, z: 0}
+--- !u!114 &1269911696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1269911689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26b7751a07007c1458fc740a79d75247, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1376396797
 GameObject:
   m_ObjectHideFlags: 0
@@ -17372,6 +17410,7 @@ GameObject:
   - component: {fileID: 1763305454}
   - component: {fileID: 1763305453}
   - component: {fileID: 1763305452}
+  - component: {fileID: 1763305458}
   m_Layer: 0
   m_Name: Prefab_CartaBlocking_Violeta
   m_TagString: Violeta
@@ -17617,6 +17656,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -29.656, y: 0, z: 0}
+--- !u!114 &1763305458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1763305451}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26b7751a07007c1458fc740a79d75247, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1772749992
 GameObject:
   m_ObjectHideFlags: 0
@@ -22610,6 +22661,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2040653465}
+  - component: {fileID: 2040653466}
   m_Layer: 0
   m_Name: Attach Point Planta
   m_TagString: Untagged
@@ -22627,11 +22679,32 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.01, y: 0.655, z: -0.024}
-  m_LocalScale: {x: 1.7456664, y: 4.1640716, z: 2.137505}
+  m_LocalScale: {x: 0.1564117, y: 0.3731008, z: 0.19152045}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 874645821}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &2040653466
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2040653464}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &83940797110826342
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22829,6 +22902,7 @@ GameObject:
   - component: {fileID: 4316968656854594269}
   - component: {fileID: 4895759993552508294}
   - component: {fileID: 83940797110826342}
+  - component: {fileID: 7933532790922568007}
   m_Layer: 0
   m_Name: Prefab_CartaBlocking_Photos
   m_TagString: Photos
@@ -23196,6 +23270,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -29.656, y: 0, z: 0}
+--- !u!114 &7933532790922568007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1984523208704134143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26b7751a07007c1458fc740a79d75247, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
