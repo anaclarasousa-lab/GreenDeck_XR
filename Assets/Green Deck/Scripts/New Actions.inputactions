@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "name": "New Actions",
+    "maps": [
+        {
+            "name": "OpenMenu",
+            "id": "52f4e3fb-09ec-47e2-9458-815ce513dc08",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "4aa6754a-b16e-48eb-af96-4ae5fab046a4",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c154d011-0bb8-4b04-a55b-2eb02ea42fa4",
+                    "path": "<XRController>{LeftHand}/{MenuButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

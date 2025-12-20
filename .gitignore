@@ -33183,3 +33183,18 @@ Plantitas/Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Prefabs/Int
 Plantitas/Assets/VRTemplateAssets/Materials/Environment/Frosted_Glass_Pattern_AlbedoTransparency.png.meta
 Plantitas/Assets/VRTemplateAssets/Prefabs/TutorialPlayer/Tutorial Player.prefab
 Plantitas/Assets/VRTemplateAssets/Prefabs/TutorialPlayer/Tutorial Player.prefab.meta
+Assets/Resources/PerformanceTestRunInfo.json
+Assets/Resources/PerformanceTestRunInfo.json.meta
+Assets/Resources/PerformanceTestRunSettings.json
+Assets/Resources/PerformanceTestRunSettings.json.meta
+Assets/Samples/XR Interaction Toolkit/3.1.3/Starter Assets/Prefabs/XR Origin (XR Rig).prefab
+Assets/UniversalRenderPipelineGlobalSettings.asset
+Assets/XR/Settings/OpenXR Package Settings.asset
+Assets/XRI_Examples/Global/RendererData/UniversalRP-HighQuality.asset
+Assets/XRI_Examples/Global/RendererData/UniversalRP-LowQuality.asset
+Assets/XRI_Examples/Global/RendererData/UniversalRP-MediumQuality.asset
+Packages/manifest.json
+Packages/packages-lock.json
+ProjectSettings/GraphicsSettings.asset
+ProjectSettings/ProjectSettings.asset
+ProjectSettings/QualitySettings.asset
