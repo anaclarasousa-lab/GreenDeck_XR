@@ -269,7 +269,6 @@ GameObject:
   - component: {fileID: 45872315}
   - component: {fileID: 45872318}
   - component: {fileID: 45872317}
-  - component: {fileID: 45872316}
   m_Layer: 0
   m_Name: Radial Menu
   m_TagString: Untagged
@@ -294,33 +293,6 @@ Transform:
   - {fileID: 629076025}
   m_Father: {fileID: 1129625028}
   m_LocalEulerAnglesHint: {x: -40.762, y: 0, z: 0}
---- !u!114 &45872316
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 45872314}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1a2d7d89889b4d94fa1f8d6fe49788e8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Target: {fileID: 453682430}
-  m_TargetOffset: {x: 0, y: 0, z: 0.15}
-  m_FollowInLocalSpace: 0
-  m_ApplyTargetInLocalSpace: 0
-  m_MovementSpeed: 6
-  m_MovementSpeedVariancePercentage: 0.25
-  m_SnapOnEnable: 1
-  m_PositionFollowMode: 1
-  m_MinDistanceAllowed: 0.01
-  m_MaxDistanceAllowed: 0.3
-  m_TimeUntilThresholdReachesMaxDistance: 3
-  m_RotationFollowMode: 1
-  m_MinAngleAllowed: 0.1
-  m_MaxAngleAllowed: 5
-  m_TimeUntilThresholdReachesMaxAngle: 3
 --- !u!114 &45872317
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -334,7 +306,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menuPanel: {fileID: 45872314}
-  openMenuAction: {fileID: 0}
+  openMenuAction: {fileID: -3599823989380923159, guid: b6d5c44ebe3244b7692e81ae8265eb22, type: 3}
 --- !u!114 &45872318
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13082,7 +13054,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1025008663
 MonoBehaviour:
   m_ObjectHideFlags: 0
