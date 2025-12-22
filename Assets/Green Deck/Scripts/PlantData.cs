@@ -5,4 +5,8 @@ public class PlantData : ScriptableObject
     public string plantName;
     public GameObject cardPrefab;  // The Card visual
     public GameObject plantPrefab; // The actual Plant model
+
+    [Header("Progreso")]
+    public bool isUnlocked; 
+    public int timesPlanted;
 }

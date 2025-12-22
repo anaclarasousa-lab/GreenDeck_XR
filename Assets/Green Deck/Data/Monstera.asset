@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e9847514a54a931459b89f9be08a7594, type: 3}
-  m_Name: Photos
+  m_Name: Monstera
   m_EditorClassIdentifier: 
   plantName: Photos
-  cardPrefab: {fileID: 2487384038325122548, guid: 258b906a6b6c0da42b7154ecde9dc3f9, type: 3}
-  plantPrefab: {fileID: 1618252538695931112, guid: cb082ce662fb5494288791d74ea18618, type: 3}
+  cardPrefab: {fileID: 4282192539457612929, guid: f38e1946ba1f57247b667f70158f8d84, type: 3}
+  plantPrefab: {fileID: 1491873058124376965, guid: 7c7c95c7288d05c4e82fd15612835761, type: 3}
   isUnlocked: 1
   timesPlanted: 0

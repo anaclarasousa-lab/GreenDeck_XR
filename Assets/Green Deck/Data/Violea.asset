@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e9847514a54a931459b89f9be08a7594, type: 3}
-  m_Name: Photos
+  m_Name: Violea
   m_EditorClassIdentifier: 
   plantName: Photos
-  cardPrefab: {fileID: 2487384038325122548, guid: 258b906a6b6c0da42b7154ecde9dc3f9, type: 3}
-  plantPrefab: {fileID: 1618252538695931112, guid: cb082ce662fb5494288791d74ea18618, type: 3}
+  cardPrefab: {fileID: 1405007006638147476, guid: c8c543c4db484ed49bde39c132040410, type: 3}
+  plantPrefab: {fileID: 132877659074530079, guid: 42f5b43c2324dde4b8bf08b27debadfe, type: 3}
   isUnlocked: 1
   timesPlanted: 0
