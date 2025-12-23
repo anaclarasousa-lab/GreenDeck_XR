@@ -22,12 +22,19 @@ public class progressionManager : MonoBehaviour
 
     private bool CanUnlock(PlantData target)
     {
-        foreach (var p in allPlants)
+        if(target.plantName == "Amarilis")
         {
-            if(p == target) continue; 
-            if(p.timesPlanted <= 0) return false;
+             foreach (var p in allPlants)
+            {
+            if (p == target) continue;
+
+            if (p.timesPlanted <= 0) return false;
+            }
+            return true;
         }
-        return true;
+
+        return target.isUnlocked;
+       
     }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

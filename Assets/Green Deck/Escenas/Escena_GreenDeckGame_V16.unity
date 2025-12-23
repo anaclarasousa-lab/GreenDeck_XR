@@ -13893,6 +13893,7 @@ GameObject:
   - component: {fileID: 1470744914}
   - component: {fileID: 1470744913}
   - component: {fileID: 1470744912}
+  - component: {fileID: 1470744915}
   m_Layer: 5
   m_Name: Photos
   m_TagString: Untagged
@@ -14013,6 +14014,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1470744910}
   m_CullTransparentMesh: 1
+--- !u!114 &1470744915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1470744910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5784f1014d7c93499137f3b0cf5822c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plantData: {fileID: 11400000, guid: e15c1d75497b86b41886c21cec2b3f02, type: 2}
+  myButton: {fileID: 1470744912}
+  displayImage: {fileID: 1470744913}
+  lockedVisual: {fileID: 21300000, guid: 000387da86f427a4188a4e2ee3b5c4d1, type: 3}
+  unlockedVisual: {fileID: 21300000, guid: 28c3330a228e34a46a91bd1d61995f75, type: 3}
 --- !u!1 &1477536086
 GameObject:
   m_ObjectHideFlags: 0
@@ -19149,6 +19167,7 @@ GameObject:
   - component: {fileID: 1617141941}
   - component: {fileID: 1617141940}
   - component: {fileID: 1617141939}
+  - component: {fileID: 1617141942}
   m_Layer: 5
   m_Name: Amarlis
   m_TagString: Untagged
@@ -19269,6 +19288,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1617141937}
   m_CullTransparentMesh: 1
+--- !u!114 &1617141942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1617141937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5784f1014d7c93499137f3b0cf5822c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plantData: {fileID: 11400000, guid: e44dcccf250de4f479fd1b6dfc43cc54, type: 2}
+  myButton: {fileID: 1617141939}
+  displayImage: {fileID: 1617141940}
+  lockedVisual: {fileID: 21300000, guid: 000387da86f427a4188a4e2ee3b5c4d1, type: 3}
+  unlockedVisual: {fileID: 21300000, guid: 28c3330a228e34a46a91bd1d61995f75, type: 3}
 --- !u!1 &1749693156
 GameObject:
   m_ObjectHideFlags: 0
