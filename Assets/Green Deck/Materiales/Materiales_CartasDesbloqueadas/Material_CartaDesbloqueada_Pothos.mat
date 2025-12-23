@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Material_CartaBloqueada_Tulipan
+  m_Name: Material_CartaDesbloqueada_Pothos
   m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -29,11 +29,11 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: b9b40db8d1c69ca47a48810da507c6e3, type: 3}
+        m_Texture: {fileID: 2800000, guid: bf8840d4bd30c9f4cb2ed68e5153a833, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 7990a2a1cbfc0a84cbd6a9340bf4c868, type: 3}
+        m_Texture: {fileID: 2800000, guid: be96845a38770454fb350d6429f633e8, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -53,11 +53,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: b9b40db8d1c69ca47a48810da507c6e3, type: 3}
+        m_Texture: {fileID: 2800000, guid: bf8840d4bd30c9f4cb2ed68e5153a833, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 2800000, guid: 680c287839a74ce48a77991c97c221ce, type: 3}
+        m_Texture: {fileID: 2800000, guid: 2ebb3d3c24960a0458fa7ff36d545677, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -65,7 +65,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
-        m_Texture: {fileID: 2800000, guid: 5a5d5723a6d39ac4f9c8e507b8dfcaa5, type: 3}
+        m_Texture: {fileID: 2800000, guid: 3b3636368840fa0449210a7548c71ce2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
@@ -124,7 +124,7 @@ Material:
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &6807801789271418479
+--- !u!114 &1234965765238453610
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
