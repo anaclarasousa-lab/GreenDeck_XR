@@ -11642,6 +11642,7 @@ GameObject:
   - component: {fileID: 699683130}
   - component: {fileID: 699683129}
   - component: {fileID: 699683128}
+  - component: {fileID: 699683131}
   m_Layer: 5
   m_Name: Violeta
   m_TagString: Untagged
@@ -11762,6 +11763,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 699683126}
   m_CullTransparentMesh: 1
+--- !u!114 &699683131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 699683126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5784f1014d7c93499137f3b0cf5822c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plantData: {fileID: 11400000, guid: f08b05120daa3cc42b0457859d9f6482, type: 2}
+  myButton: {fileID: 699683128}
+  displayImage: {fileID: 699683129}
+  lockedVisual: {fileID: 21300000, guid: de1683f74e4f7584a826baf9abc56cf5, type: 3}
+  unlockedVisual: {fileID: 21300000, guid: 08cd8ea4809c2fd4dadd45c857708adf, type: 3}
 --- !u!1 &782769951
 GameObject:
   m_ObjectHideFlags: 0
@@ -13729,6 +13747,7 @@ GameObject:
   - component: {fileID: 1353100126}
   - component: {fileID: 1353100125}
   - component: {fileID: 1353100124}
+  - component: {fileID: 1353100127}
   m_Layer: 5
   m_Name: Montsera
   m_TagString: Untagged
@@ -13849,6 +13868,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1353100122}
   m_CullTransparentMesh: 1
+--- !u!114 &1353100127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1353100122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5784f1014d7c93499137f3b0cf5822c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plantData: {fileID: 11400000, guid: 39b3af32a95052f43bb0af26687eb791, type: 2}
+  myButton: {fileID: 1353100124}
+  displayImage: {fileID: 1353100125}
+  lockedVisual: {fileID: 21300000, guid: 0c97c355cf9264f4cb6a4a0ebb0c92b8, type: 3}
+  unlockedVisual: {fileID: 21300000, guid: 583cc5c2282e15e4ba5834a216bd35dc, type: 3}
 --- !u!1 &1376396797
 GameObject:
   m_ObjectHideFlags: 0
@@ -19303,8 +19339,8 @@ MonoBehaviour:
   plantData: {fileID: 11400000, guid: e44dcccf250de4f479fd1b6dfc43cc54, type: 2}
   myButton: {fileID: 1617141939}
   displayImage: {fileID: 1617141940}
-  lockedVisual: {fileID: 21300000, guid: 000387da86f427a4188a4e2ee3b5c4d1, type: 3}
-  unlockedVisual: {fileID: 21300000, guid: 28c3330a228e34a46a91bd1d61995f75, type: 3}
+  lockedVisual: {fileID: 21300000, guid: fa234c9e8e067a24dbe7763eaf1fc82b, type: 3}
+  unlockedVisual: {fileID: 21300000, guid: 04c3ec31fe5e2b74f816d2eccdf51a17, type: 3}
 --- !u!1 &1749693156
 GameObject:
   m_ObjectHideFlags: 0
@@ -19349,6 +19385,7 @@ GameObject:
   - component: {fileID: 1758680132}
   - component: {fileID: 1758680131}
   - component: {fileID: 1758680130}
+  - component: {fileID: 1758680133}
   m_Layer: 5
   m_Name: Tulipan
   m_TagString: Untagged
@@ -19469,6 +19506,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1758680128}
   m_CullTransparentMesh: 1
+--- !u!114 &1758680133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1758680128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5784f1014d7c93499137f3b0cf5822c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plantData: {fileID: 11400000, guid: b915cfd2bf0a19a4db64c0da33b17609, type: 2}
+  myButton: {fileID: 1758680130}
+  displayImage: {fileID: 1758680131}
+  lockedVisual: {fileID: 21300000, guid: 76a8ef15773346d4eba90720f232bceb, type: 3}
+  unlockedVisual: {fileID: 21300000, guid: f6f7dff5f79c4cf44a3235956eab69ac, type: 3}
 --- !u!1 &1763305451 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1405007006638147476, guid: c8c543c4db484ed49bde39c132040410, type: 3}
