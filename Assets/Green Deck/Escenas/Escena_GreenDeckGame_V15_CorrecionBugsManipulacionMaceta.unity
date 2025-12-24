@@ -12537,6 +12537,7 @@ GameObject:
   - component: {fileID: 874645829}
   - component: {fileID: 874645831}
   - component: {fileID: 874645832}
+  - component: {fileID: 874645833}
   m_Layer: 0
   m_Name: Modelo3d_MacetaBlocking_V1
   m_TagString: Untagged
@@ -12881,7 +12882,7 @@ MonoBehaviour:
   m_InteractionManager: {fileID: 0}
   m_Colliders: []
   m_InteractionLayers:
-    m_Bits: 1
+    m_Bits: 805306369
   m_DistanceCalculationMode: 1
   m_SelectMode: 1
   m_FocusMode: 1
@@ -13015,6 +13016,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   socketInteractor: {fileID: 874645822}
+--- !u!114 &874645833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 874645815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fcfcf226cbdd284d932e7eaf2653dca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  originalLayerName: Default
+  socketLayerName: Maceta
 --- !u!4 &894720806 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3386409087125085481, guid: 8afe6e9b6ecac484db0074e580458224, type: 3}
@@ -13096,7 +13111,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1025008663
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13377,7 +13392,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1129625028
 Transform:
   m_ObjectHideFlags: 0
@@ -25092,6 +25107,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1319746312, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
+      propertyPath: m_RaycastMask.m_Bits
+      value: 2147483873
+      objectReference: {fileID: 0}
     - target: {fileID: 1767192439, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_BackGroundColor.a
       value: 1
@@ -25151,6 +25170,38 @@ PrefabInstance:
     - target: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1883230248363655243, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141651114331267770, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 805306369
+      objectReference: {fileID: 0}
+    - target: {fileID: 2449787133337329425, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
+      propertyPath: m_RaycastMask.m_Bits
+      value: 2147483873
+      objectReference: {fileID: 0}
+    - target: {fileID: 4053579577978487484, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
+      propertyPath: m_PhysicsLayerMask.m_Bits
+      value: 193
+      objectReference: {fileID: 0}
+    - target: {fileID: 4343660526480754339, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 805306369
+      objectReference: {fileID: 0}
+    - target: {fileID: 5033801203051696737, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6436123941575367715, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
+      propertyPath: m_PhysicsLayerMask.m_Bits
+      value: 193
+      objectReference: {fileID: 0}
+    - target: {fileID: 8877177980677234388, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -25332,7 +25383,7 @@ MonoBehaviour:
   m_SelectMode: 0
   m_FocusMode: 1
   m_CustomReticle: {fileID: 0}
-  m_AllowGazeInteraction: 0
+  m_AllowGazeInteraction: 1
   m_AllowGazeSelect: 0
   m_OverrideGazeTimeToSelect: 0
   m_GazeTimeToSelect: 0.5
@@ -25447,7 +25498,15 @@ PrefabInstance:
       value: photosPrefab
       objectReference: {fileID: 0}
     - target: {fileID: 1618252538695931112, guid: cb082ce662fb5494288791d74ea18618, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1618252538695931112, guid: cb082ce662fb5494288791d74ea18618, type: 3}
       propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3049142336222610123, guid: cb082ce662fb5494288791d74ea18618, type: 3}
+      propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3269426720988216285, guid: cb082ce662fb5494288791d74ea18618, type: 3}
@@ -25634,6 +25693,10 @@ PrefabInstance:
       propertyPath: m_CollisionDetection
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 769596746610303746, guid: 45cb56319386d584f8c55bdad27eb78e, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1281003562929565792, guid: 45cb56319386d584f8c55bdad27eb78e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.008728116
@@ -25677,6 +25740,10 @@ PrefabInstance:
     - target: {fileID: 7077831714205203090, guid: 45cb56319386d584f8c55bdad27eb78e, type: 3}
       propertyPath: m_Name
       value: tulipanPrefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 7077831714205203090, guid: 45cb56319386d584f8c55bdad27eb78e, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7077831714205203090, guid: 45cb56319386d584f8c55bdad27eb78e, type: 3}
       propertyPath: m_IsActive
@@ -25748,7 +25815,15 @@ PrefabInstance:
       value: amarilisPrefab
       objectReference: {fileID: 0}
     - target: {fileID: 4009503205391781614, guid: 8afe6e9b6ecac484db0074e580458224, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4009503205391781614, guid: 8afe6e9b6ecac484db0074e580458224, type: 3}
       propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4178625103175786178, guid: 8afe6e9b6ecac484db0074e580458224, type: 3}
+      propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -25777,7 +25852,15 @@ PrefabInstance:
       value: monsteraPrefab
       objectReference: {fileID: 0}
     - target: {fileID: 1491873058124376965, guid: 7c7c95c7288d05c4e82fd15612835761, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1491873058124376965, guid: 7c7c95c7288d05c4e82fd15612835761, type: 3}
       propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4063881034992584810, guid: 7c7c95c7288d05c4e82fd15612835761, type: 3}
+      propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4299251141551037434, guid: 7c7c95c7288d05c4e82fd15612835761, type: 3}
@@ -25846,6 +25929,10 @@ PrefabInstance:
       value: violetaPrefab
       objectReference: {fileID: 0}
     - target: {fileID: 132877659074530079, guid: 42f5b43c2324dde4b8bf08b27debadfe, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 132877659074530079, guid: 42f5b43c2324dde4b8bf08b27debadfe, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -25887,6 +25974,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6807661759350611921, guid: 42f5b43c2324dde4b8bf08b27debadfe, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7883933433882657643, guid: 42f5b43c2324dde4b8bf08b27debadfe, type: 3}
+      propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8341809476261859735, guid: 42f5b43c2324dde4b8bf08b27debadfe, type: 3}
