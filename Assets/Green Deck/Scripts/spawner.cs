@@ -1,34 +1,67 @@
+using System.Numerics;
 using UnityEngine;
 
 public class spawner : MonoBehaviour
 {
     public GameObject Photos;
+    public Transform PhotosPosition;
     public GameObject Monstera;
+    public Transform MonsteraPosition;
+
     public GameObject Violeta;
+    public Transform VioletaPosition;
+
     public GameObject Tulipan;
+    public Transform TulipanPosition;
+
     public GameObject Amarilis;
+    public Transform AmarilisPosition;
+
 
 
 
 
     public void SpawnPhotos()
     {
-        Instantiate(Photos);
+        if(Photos != null && PhotosPosition != null)
+        {
+            UnityEngine.Vector3  spawnPhotosPos = PhotosPosition.position;
+            UnityEngine.Quaternion spawnPhotosRot = UnityEngine.Quaternion.Euler(0, -90, 0);
+            Instantiate(Photos, spawnPhotosPos, spawnPhotosRot);
+
+        }
+
     }
-        public void SpawnMonstera()
+    public void SpawnMonstera()
     {
-        Instantiate(Monstera);
+         if(Monstera != null && MonsteraPosition != null)
+        {
+            Instantiate(Monstera, MonsteraPosition.position, MonsteraPosition.rotation);
+
+        }
     }
-        public void SpawnVioleta()
+    public void SpawnVioleta()
     {
-        Instantiate(Violeta);
+        if(Violeta != null && VioletaPosition != null)
+        {
+            Instantiate(Violeta, VioletaPosition.position, VioletaPosition.rotation);
+
+        }
     }
-        public void SpawnTulipan()
+    public void SpawnTulipan()
     {
-        Instantiate(Tulipan);
+        if(Tulipan != null && TulipanPosition != null)
+        {
+            Instantiate(Tulipan, TulipanPosition.position, TulipanPosition.rotation);
+
+        }    
     }
-        public void SpawnAmarilis()
+    public void SpawnAmarilis()
     {
-        Instantiate(Amarilis);
+        if(Amarilis != null && AmarilisPosition != null)
+        {
+            Instantiate(Amarilis, AmarilisPosition.position, AmarilisPosition.rotation);
+
+        }     
     }
 }
