@@ -10,6 +10,8 @@ public class PlantButtonUi : MonoBehaviour
     public Sprite lockedVisual; 
     public Sprite unlockedVisual;
 
+    public GameObject toolTip;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     private void Start()
     {
