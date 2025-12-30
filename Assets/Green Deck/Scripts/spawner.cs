@@ -36,15 +36,18 @@ public class spawner : MonoBehaviour
     {
          if(Monstera != null && MonsteraPosition != null)
         {
-            Instantiate(Monstera, MonsteraPosition.position, MonsteraPosition.rotation);
-
+            UnityEngine.Vector3  spawnMonsteraPos = MonsteraPosition.position;
+            UnityEngine.Quaternion spawnMonsteraRot = UnityEngine.Quaternion.Euler(0, -90, 0);
+            Instantiate(Monstera, spawnMonsteraPos, spawnMonsteraRot);
         }
     }
     public void SpawnVioleta()
     {
         if(Violeta != null && VioletaPosition != null)
         {
-            Instantiate(Violeta, VioletaPosition.position, VioletaPosition.rotation);
+            UnityEngine.Vector3  spawnVioletaPos = VioletaPosition.position;
+            UnityEngine.Quaternion spawnVioletaRot = UnityEngine.Quaternion.Euler(0, -90, 0);
+            Instantiate(Violeta, spawnVioletaPos, spawnVioletaRot);
 
         }
     }
@@ -52,7 +55,9 @@ public class spawner : MonoBehaviour
     {
         if(Tulipan != null && TulipanPosition != null)
         {
-            Instantiate(Tulipan, TulipanPosition.position, TulipanPosition.rotation);
+            UnityEngine.Vector3  spawnTulipanPos = TulipanPosition.position;
+            UnityEngine.Quaternion spawnTulipanRot = UnityEngine.Quaternion.Euler(0, -90, 0);
+            Instantiate(Tulipan, spawnTulipanPos, spawnTulipanRot);
 
         }    
     }
@@ -60,7 +65,9 @@ public class spawner : MonoBehaviour
     {
         if(Amarilis != null && AmarilisPosition != null)
         {
-            Instantiate(Amarilis, AmarilisPosition.position, AmarilisPosition.rotation);
+            UnityEngine.Vector3  spawnAmarilisPos = AmarilisPosition.position;
+            UnityEngine.Quaternion spawnAmarilisRot = UnityEngine.Quaternion.Euler(0, -90, 0);
+            Instantiate(Amarilis, spawnAmarilisPos, spawnAmarilisRot);
 
         }     
     }
