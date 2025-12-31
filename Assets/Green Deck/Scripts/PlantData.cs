@@ -9,4 +9,9 @@ public class PlantData : ScriptableObject
     [Header("Progreso")]
     public bool isUnlocked; 
     public int timesPlanted;
+
+    public void RegisterPlanting()
+    {
+        timesPlanted ++;
+    }
 }

@@ -1,5 +1,7 @@
 using System.Numerics;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class spawner : MonoBehaviour
 {
@@ -16,6 +18,8 @@ public class spawner : MonoBehaviour
 
     public GameObject Amarilis;
     public Transform AmarilisPosition;
+    public PlantData amarilisData; 
+    public GameObject tooltipObject;
 
 
 
@@ -62,13 +66,22 @@ public class spawner : MonoBehaviour
         }    
     }
     public void SpawnAmarilis()
-    {
-        if(Amarilis != null && AmarilisPosition != null)
+    {        
+        if(amarilisData != null && amarilisData.isUnlocked)
         {
-            UnityEngine.Vector3  spawnAmarilisPos = AmarilisPosition.position;
-            UnityEngine.Quaternion spawnAmarilisRot = UnityEngine.Quaternion.Euler(0, -90, 0);
-            Instantiate(Amarilis, spawnAmarilisPos, spawnAmarilisRot);
+            if(Amarilis != null && AmarilisPosition != null)
+                {
+                UnityEngine.Vector3  spawnAmarilisPos = AmarilisPosition.position;
+                UnityEngine.Quaternion spawnAmarilisRot = UnityEngine.Quaternion.Euler(0, -90, 0);
+                Instantiate(Amarilis, spawnAmarilisPos, spawnAmarilisRot);
 
-        }     
+                }
+        }
+        else
+        {
+            tooltipObject.SetActive(true);
+            
+        }
     }
+
 }

@@ -1225,7 +1225,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2051236572874353481, guid: f2938c4155d2b0d48a94f2885b528073, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1625162908}
   m_SourcePrefab: {fileID: 100100000, guid: f2938c4155d2b0d48a94f2885b528073, type: 3}
 --- !u!1001 &161596165
 PrefabInstance:
@@ -12152,6 +12155,19 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5623458879144006680, guid: 0e0ec71a31691b54d89d6bb7538d6338, type: 3}
   m_PrefabInstance: {fileID: 1761003102}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &545655526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 545655525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81f4beb163e72594c90ae16393101e4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plantData: {fileID: 11400000, guid: e15c1d75497b86b41886c21cec2b3f02, type: 2}
 --- !u!1 &613463145
 GameObject:
   m_ObjectHideFlags: 0
@@ -21132,6 +21148,19 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2051236572874353481, guid: f2938c4155d2b0d48a94f2885b528073, type: 3}
   m_PrefabInstance: {fileID: 143346284}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1625162908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1625162907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81f4beb163e72594c90ae16393101e4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plantData: {fileID: 11400000, guid: e44dcccf250de4f479fd1b6dfc43cc54, type: 2}
 --- !u!1 &1645260416
 GameObject:
   m_ObjectHideFlags: 0
@@ -21418,7 +21447,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5623458879144006680, guid: 0e0ec71a31691b54d89d6bb7538d6338, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 545655526}
   m_SourcePrefab: {fileID: 100100000, guid: 0e0ec71a31691b54d89d6bb7538d6338, type: 3}
 --- !u!4 &1761003103 stripped
 Transform:
@@ -26716,6 +26748,8 @@ MonoBehaviour:
   TulipanPosition: {fileID: 1758680129}
   Amarilis: {fileID: 1625162907}
   AmarilisPosition: {fileID: 1617141938}
+  amarilisData: {fileID: 0}
+  tooltipObject: {fileID: 0}
 --- !u!4 &2002290596
 Transform:
   m_ObjectHideFlags: 0

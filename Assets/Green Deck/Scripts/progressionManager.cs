@@ -26,14 +26,16 @@ public class progressionManager : MonoBehaviour
         {
              foreach (var p in allPlants)
             {
-            if (p == target) continue;
-
-            if (p.timesPlanted <= 0) return false;
+                if (p == target ) continue;
+                if(p.isUnlocked && p.timesPlanted <= 0)
+                {
+                    return false;
+                }
             }
             return true;
         }
 
-        return target.isUnlocked;
+        return false;
        
     }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
