@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Numerics;
 using UnityEngine.UI; 
 
 public class PlantButtonUi : MonoBehaviour
@@ -17,7 +18,7 @@ public class PlantButtonUi : MonoBehaviour
     {
         RefreshUI();
     }
-
+    
     public void RefreshUI()
     {
         if (plantData == null || displayImage == null || myButton == null) return;
@@ -31,6 +32,7 @@ public class PlantButtonUi : MonoBehaviour
         else
         {
             displayImage.sprite = lockedVisual;
+
         }
     }
     // Update is called once per frame
