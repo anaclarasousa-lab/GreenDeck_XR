@@ -33198,3 +33198,12 @@ Packages/packages-lock.json
 ProjectSettings/GraphicsSettings.asset
 ProjectSettings/ProjectSettings.asset
 ProjectSettings/QualitySettings.asset
+Assets/Samples/XR Interaction Toolkit/3.1.3/XR Device Simulator/Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.asmdef.meta
+Assets/Samples/XR Interaction Toolkit/3.1.3/XR Device Simulator/XRDeviceSimulator/Scripts.meta
+Assets/Samples/XR Interaction Toolkit/3.1.3/XR Device Simulator/XRDeviceSimulator/Scripts/XRDeviceSimulatorControllerUI.cs.meta
+Assets/Samples/XR Interaction Toolkit/3.1.3/XR Device Simulator/XRDeviceSimulator/Scripts/XRDeviceSimulatorHandsUI.cs.meta
+Assets/Samples/XR Interaction Toolkit/3.1.3/XR Device Simulator/XRDeviceSimulator/Scripts/XRDeviceSimulatorUI.cs.meta
+Assets/Samples/XR Interaction Toolkit/3.1.3/XR Device Simulator/XRDeviceSimulator/UI.meta
+Assets/Samples/XR Interaction Toolkit/3.1.3/XR Device Simulator/XRDeviceSimulator/UI/XR Device Simulator UI.prefab.meta
+Assets/Samples/XR Interaction Toolkit/3.1.3/XR Device Simulator/XRDeviceSimulator/XR Device Hand Controls.inputactions.meta
+Assets/Samples/XR Interaction Toolkit/3.1.3/XR Device Simulator/XRDeviceSimulator/XR Device Simulator.prefab.meta
