@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 3353606873229987613}
   - component: {fileID: 528508279135274923}
   - component: {fileID: 3746078741705886145}
+  - component: {fileID: -4607319682813875238}
   m_Layer: 0
   m_Name: Prefab_CartaTulipan
   m_TagString: Tulipan
@@ -274,6 +275,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26b7751a07007c1458fc740a79d75247, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-4607319682813875238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3655248099191592373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0988c135e0e98646ae2f677705def2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: {fileID: 11400000, guid: b915cfd2bf0a19a4db64c0da33b17609, type: 2}
 --- !u!1 &3954625876696790368
 GameObject:
   m_ObjectHideFlags: 0

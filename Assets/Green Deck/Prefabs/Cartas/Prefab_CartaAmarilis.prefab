@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 1647002031405994781}
   - component: {fileID: 4386220510375015772}
   - component: {fileID: 8062724285871664671}
+  - component: {fileID: 5346534575152133708}
   m_Layer: 0
   m_Name: Prefab_CartaAmarilis
   m_TagString: Amarilis
@@ -274,6 +275,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26b7751a07007c1458fc740a79d75247, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &5346534575152133708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2051236572874353481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0988c135e0e98646ae2f677705def2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: {fileID: 11400000, guid: e44dcccf250de4f479fd1b6dfc43cc54, type: 2}
 --- !u!1 &6790562486587340692
 GameObject:
   m_ObjectHideFlags: 0

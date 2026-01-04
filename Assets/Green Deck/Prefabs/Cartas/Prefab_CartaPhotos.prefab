@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 6584986747496117988}
   - component: {fileID: 4649471570115720217}
   - component: {fileID: 2107519926686708064}
+  - component: {fileID: -1115104068239501105}
   m_Layer: 0
   m_Name: Prefab_CartaPhotos
   m_TagString: Photos
@@ -274,6 +275,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26b7751a07007c1458fc740a79d75247, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-1115104068239501105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5623458879144006680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0988c135e0e98646ae2f677705def2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: {fileID: 11400000, guid: e15c1d75497b86b41886c21cec2b3f02, type: 2}
 --- !u!1 &8804174334356201481
 GameObject:
   m_ObjectHideFlags: 0

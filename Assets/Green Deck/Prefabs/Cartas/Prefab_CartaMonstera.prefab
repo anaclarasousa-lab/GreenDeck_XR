@@ -46,6 +46,7 @@ GameObject:
   - component: {fileID: 6028979643372153811}
   - component: {fileID: 4765091706521124213}
   - component: {fileID: 1373826833672076603}
+  - component: {fileID: -1293562451503608731}
   m_Layer: 0
   m_Name: Prefab_CartaMonstera
   m_TagString: Monstera
@@ -305,3 +306,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26b7751a07007c1458fc740a79d75247, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-1293562451503608731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7291513774806600720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0988c135e0e98646ae2f677705def2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: {fileID: 11400000, guid: 39b3af32a95052f43bb0af26687eb791, type: 2}
