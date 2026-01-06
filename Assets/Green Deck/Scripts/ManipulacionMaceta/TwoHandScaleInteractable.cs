@@ -1,21 +1,19 @@
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
-using System.Collections.Generic;
+using UnityEngine.XR.Interaction.Toolkit.Interactables;
 
 public class TwoHandScaleInteractable : MonoBehaviour
 {
-    public UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable grabInteractable;
-    public float scaleSpeed = 1.0f;
+    public XRGrabInteractable grabInteractable;
     public float minScale = 0.3f;
     public float maxScale = 2.0f;
 
     private Vector3 initialScale;
     private float initialHandsDistance;
+    private bool isTwoHandScaling = false;
 
     void Awake()
     {
-        initialScale = transform.localScale;
-
         grabInteractable.selectEntered.AddListener(OnGrab);
         grabInteractable.selectExited.AddListener(OnRelease);
     }
@@ -30,8 +28,7 @@ public class TwoHandScaleInteractable : MonoBehaviour
     {
         if (grabInteractable.interactorsSelecting.Count == 2)
         {
-            initialHandsDistance = GetHandsDistance();
-            initialScale = transform.localScale;
+            StartTwoHandScale();
         }
     }
 
@@ -39,22 +36,33 @@ public class TwoHandScaleInteractable : MonoBehaviour
     {
         if (grabInteractable.interactorsSelecting.Count < 2)
         {
+            isTwoHandScaling = false;
             initialHandsDistance = 0f;
         }
     }
 
-    void Update()
+    void LateUpdate()
     {
-        if (grabInteractable.interactorsSelecting.Count == 2)
-        {
-            float currentDistance = GetHandsDistance();
-            float scaleFactor = currentDistance / initialHandsDistance;
+        if (!isTwoHandScaling) return;
 
-            Vector3 targetScale = initialScale * scaleFactor;
-            targetScale = ClampScale(targetScale);
+        float currentDistance = GetHandsDistance();
+        if (currentDistance <= 0.001f) return;
 
-            transform.localScale = targetScale;
-        }
+        float scaleFactor = currentDistance / initialHandsDistance;
+        Vector3 targetScale = initialScale * scaleFactor;
+        targetScale = ClampScale(targetScale);
+
+        transform.localScale = targetScale;
+    }
+
+    void StartTwoHandScale()
+    {
+        initialHandsDistance = GetHandsDistance();
+
+        if (initialHandsDistance <= 0.001f) return;
+
+        initialScale = transform.localScale;
+        isTwoHandScaling = true;
     }
 
     float GetHandsDistance()
@@ -72,3 +80,4 @@ public class TwoHandScaleInteractable : MonoBehaviour
         return Vector3.one * clamped;
     }
 }
+

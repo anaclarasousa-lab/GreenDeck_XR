@@ -6228,6 +6228,10 @@ PrefabInstance:
       value: -0.000035156012
       objectReference: {fileID: 0}
     - target: {fileID: 3529043149077862838, guid: d173996ecb8b4fe4ea6e5d34055771da, type: 3}
+      propertyPath: m_TrackScale
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3529043149077862838, guid: d173996ecb8b4fe4ea6e5d34055771da, type: 3}
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 1772749993}
@@ -6484,6 +6488,10 @@ PrefabInstance:
       value: 0.00643
       objectReference: {fileID: 0}
     - target: {fileID: 3917265446042767539, guid: da531879640803f4cb27b522837758c0, type: 3}
+      propertyPath: m_TrackScale
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3917265446042767539, guid: da531879640803f4cb27b522837758c0, type: 3}
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 1772749993}
@@ -6706,6 +6714,10 @@ PrefabInstance:
     - target: {fileID: 3629323154463862468, guid: 2bb03decc60fa6946848b2327e61eb64, type: 3}
       propertyPath: m_CollisionDetection
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5845280942210287077, guid: 2bb03decc60fa6946848b2327e61eb64, type: 3}
+      propertyPath: m_TrackScale
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5845280942210287077, guid: 2bb03decc60fa6946848b2327e61eb64, type: 3}
       propertyPath: m_InteractionManager
@@ -13480,6 +13492,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4438059876720113554, guid: c82cc0672b35af744af8380d5205d47e, type: 3}
+      propertyPath: m_TrackScale
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4438059876720113554, guid: c82cc0672b35af744af8380d5205d47e, type: 3}
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 1772749993}
@@ -14913,6 +14929,10 @@ PrefabInstance:
     - target: {fileID: 2094153462547927652, guid: 8f54fdc0b1c62bf4fa3da54725ecae05, type: 3}
       propertyPath: m_InteractionLayers.m_Bits
       value: 268435456
+      objectReference: {fileID: 0}
+    - target: {fileID: 2847494663280420424, guid: 8f54fdc0b1c62bf4fa3da54725ecae05, type: 3}
+      propertyPath: m_TrackScale
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2847494663280420424, guid: 8f54fdc0b1c62bf4fa3da54725ecae05, type: 3}
       propertyPath: m_InteractionManager
