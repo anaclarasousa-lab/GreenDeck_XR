@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9847514a54a931459b89f9be08a7594, type: 3}
   m_Name: Monstera
   m_EditorClassIdentifier: 
-  plantName: Photos
-  cardPrefab: {fileID: 4282192539457612929, guid: f38e1946ba1f57247b667f70158f8d84, type: 3}
+  plantName: Monstera
+  cardPrefab: {fileID: 7291513774806600720, guid: 40c20bde4d3a6274f8a712a881be169c, type: 3}
   plantPrefab: {fileID: 1491873058124376965, guid: 7c7c95c7288d05c4e82fd15612835761, type: 3}
   isUnlocked: 1
   timesPlanted: 0
