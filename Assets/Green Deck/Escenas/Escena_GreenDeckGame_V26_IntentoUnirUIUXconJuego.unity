@@ -6179,6 +6179,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1832375859954800915, guid: d173996ecb8b4fe4ea6e5d34055771da, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.00337
+      objectReference: {fileID: 0}
     - target: {fileID: 1892047443251486464, guid: d173996ecb8b4fe4ea6e5d34055771da, type: 3}
       propertyPath: m_Name
       value: Prefab_Maceta_4
@@ -6461,7 +6465,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2634312052064377670, guid: da531879640803f4cb27b522837758c0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.0078
+      value: 0.00643
       objectReference: {fileID: 0}
     - target: {fileID: 5326884093068264251, guid: da531879640803f4cb27b522837758c0, type: 3}
       propertyPath: m_IsActive
@@ -6734,6 +6738,10 @@ PrefabInstance:
     - target: {fileID: 7908374582000282090, guid: 2bb03decc60fa6946848b2327e61eb64, type: 3}
       propertyPath: m_Center.z
       value: -0.00080165564
+      objectReference: {fileID: 0}
+    - target: {fileID: 8311647500675039685, guid: 2bb03decc60fa6946848b2327e61eb64, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.00483
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -14805,6 +14813,10 @@ PrefabInstance:
     - target: {fileID: 230957332270038107, guid: 8f54fdc0b1c62bf4fa3da54725ecae05, type: 3}
       propertyPath: m_Center.z
       value: -0.00010170996
+      objectReference: {fileID: 0}
+    - target: {fileID: 1938643405997879546, guid: 8f54fdc0b1c62bf4fa3da54725ecae05, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.00497
       objectReference: {fileID: 0}
     - target: {fileID: 3071907343052659333, guid: 8f54fdc0b1c62bf4fa3da54725ecae05, type: 3}
       propertyPath: m_UseGravity
