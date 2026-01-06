@@ -14,12 +14,15 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Green Deck/Escenas/Escena_GreenDeckGame_V12_ArreglarSimOrdenador.unity
     guid: 94ec03e7682cdae408c3e8981adf8a80
-  - enabled: 1
+  - enabled: 0
     path: Assets/Green Deck/Escenas/Escena_GreenDeckGame_Start.unity
     guid: b4f16c54096c09443971fba4497a438b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Green Deck/Escenas/Escena_GreenDeckGame_V21.unity
     guid: 67ea33fe6199aeb4eb0ae8f83bd18f48
+  - enabled: 1
+    path: Assets/Green Deck/Escenas/Escena_GreenDeckGame_V25_IntentarCorregirBugCartaPlanta.unity
+    guid: 25a51bdf9031ae54eafe1d4edc07fd5a
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: efb7b87eb8ecd9d46b3a0351222f323f, type: 2}
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: bfcf99b6417c55848b0851165a21c8f3, type: 2}
