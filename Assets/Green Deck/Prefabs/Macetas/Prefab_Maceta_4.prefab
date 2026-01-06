@@ -472,8 +472,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   grabInteractable: {fileID: 3529043149077862838}
   scaleSpeed: 1
-  minScale: 0.3
-  maxScale: 2
+  minScale: 40
+  maxScale: 70
 --- !u!114 &1663315173878276459
 MonoBehaviour:
   m_ObjectHideFlags: 0
