@@ -39,7 +39,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0.729, z: 1.56}
-  m_LocalScale: {x: 35, y: 35, z: 35}
+  m_LocalScale: {x: 20, y: 20, z: 20}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 7654662937058815211}
@@ -471,9 +471,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   grabInteractable: {fileID: 4438059876720113554}
-  scaleSpeed: 1
-  minScale: 40
-  maxScale: 70
+  minScale: 5
+  maxScale: 50
 --- !u!114 &4120956217473404683
 MonoBehaviour:
   m_ObjectHideFlags: 0
