@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9847514a54a931459b89f9be08a7594, type: 3}
   m_Name: Tulipan
   m_EditorClassIdentifier: 
-  plantName: Photos
-  cardPrefab: {fileID: 3116750443188625049, guid: 5ffcea49ab0214b44adbcfa8bf4536d6, type: 3}
+  plantName: Tulipan
+  cardPrefab: {fileID: 3655248099191592373, guid: 54bbb3877d0b09a4dafdad7cef4cebef, type: 3}
   plantPrefab: {fileID: 7077831714205203090, guid: 45cb56319386d584f8c55bdad27eb78e, type: 3}
   isUnlocked: 1
   timesPlanted: 0

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9847514a54a931459b89f9be08a7594, type: 3}
   m_Name: Violea
   m_EditorClassIdentifier: 
-  plantName: Photos
+  plantName: Violeta
   cardPrefab: {fileID: 1405007006638147476, guid: c8c543c4db484ed49bde39c132040410, type: 3}
   plantPrefab: {fileID: 132877659074530079, guid: 42f5b43c2324dde4b8bf08b27debadfe, type: 3}
   isUnlocked: 1
