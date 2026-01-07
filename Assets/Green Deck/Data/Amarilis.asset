@@ -15,5 +15,5 @@ MonoBehaviour:
   plantName: Amarilis
   cardPrefab: {fileID: 2051236572874353481, guid: f2938c4155d2b0d48a94f2885b528073, type: 3}
   plantPrefab: {fileID: 4009503205391781614, guid: 8afe6e9b6ecac484db0074e580458224, type: 3}
-  isUnlocked: 0
+  isUnlocked: 1
   timesPlanted: 0

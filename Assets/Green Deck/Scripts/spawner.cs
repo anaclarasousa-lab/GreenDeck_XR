@@ -77,7 +77,7 @@ public class spawner : MonoBehaviour
         {
             UnityEngine.Vector3  spawnTulipanPos = TulipanPosition.position;
             UnityEngine.Quaternion spawnTulipanRot = UnityEngine.Quaternion.Euler(0, -90, 0);
-            Instantiate(Violeta, spawnTulipanPos,spawnTulipanRot);
+            Instantiate(Tulipan, spawnTulipanPos,spawnTulipanRot);
 
             AudioSource.PlayClipAtPoint (spawnClip, transform.position);
 
