@@ -11,7 +11,10 @@ public class PlantData : ScriptableObject
     public bool isUnlocked; 
     public int timesPlanted;
     public UnityAction OnDataChanged;
-
+void Start()
+    {
+        timesPlanted = 0; 
+    }
     public void RegisterPlanting()
     {
         timesPlanted ++;

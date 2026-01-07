@@ -40,6 +40,7 @@ private void CheckAmarilisRequirements()
              foreach (var p in allPlants)
             {
                 if (p == target ) continue;
+                
                 if(p.timesPlanted <= 0)
                 {
                     return false;

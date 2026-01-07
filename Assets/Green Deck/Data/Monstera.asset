@@ -16,4 +16,4 @@ MonoBehaviour:
   cardPrefab: {fileID: 7291513774806600720, guid: 40c20bde4d3a6274f8a712a881be169c, type: 3}
   plantPrefab: {fileID: 1491873058124376965, guid: 7c7c95c7288d05c4e82fd15612835761, type: 3}
   isUnlocked: 1
-  timesPlanted: 0
+  timesPlanted: 1
