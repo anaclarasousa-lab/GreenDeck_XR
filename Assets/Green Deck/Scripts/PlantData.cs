@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Events;
 [CreateAssetMenu(fileName = "New Plant", menuName = "Garden/Plant Data")]
 public class PlantData : ScriptableObject
 {
@@ -9,9 +10,16 @@ public class PlantData : ScriptableObject
     [Header("Progreso")]
     public bool isUnlocked; 
     public int timesPlanted;
+    public UnityAction OnDataChanged;
 
     public void RegisterPlanting()
     {
         timesPlanted ++;
+        OnDataChanged?.Invoke();
+    }
+    public void SetUnlocked(bool state)
+    {
+        isUnlocked = state;
+        OnDataChanged?.Invoke();
     }
 }

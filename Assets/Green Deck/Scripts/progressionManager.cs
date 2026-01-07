@@ -4,25 +4,34 @@ using System.Collections.Generic;
 public class progressionManager : MonoBehaviour
 {
     public List <PlantData> allPlants;
-
+   
     [Header("Sounds")]
     public AudioClip unlocking; 
     public AudioClip locking;  
     
+    public PlantData amarilisData;
    
-    public void CheckUnlocks()
+   private void OnEnable()
+{
+    // Escuchamos a todas las plantas de la lista
+    foreach(var plant in allPlants)
     {
-        foreach(var plant in allPlants)
-        {
-            if(!plant.isUnlocked)
-            {
-                if(CanUnlock(plant))
-                {
-                    plant.isUnlocked = true; 
-                }
-            }
-        }
+        if(plant != null) plant.OnDataChanged += CheckAmarilisRequirements;
     }
+}
+
+private void CheckAmarilisRequirements()
+{
+    // Si ya está desbloqueada, no hacemos nada
+    if (amarilisData.isUnlocked) return;
+
+    // Llamamos a tu lógica de validación
+    if (CanUnlock(amarilisData))
+    {
+        amarilisData.SetUnlocked(true);
+        Debug.Log("¡Amarilis desbloqueada automáticamente por el Manager!");
+    }
+}
 
     private bool CanUnlock(PlantData target)
     {
@@ -31,7 +40,7 @@ public class progressionManager : MonoBehaviour
              foreach (var p in allPlants)
             {
                 if (p == target ) continue;
-                if(p.isUnlocked && p.timesPlanted <= 0)
+                if(p.timesPlanted <= 0)
                 {
                     return false;
                 }
