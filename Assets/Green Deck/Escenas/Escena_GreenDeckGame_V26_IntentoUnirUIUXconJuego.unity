@@ -214,6 +214,36 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6751177826467196774, guid: 8f54fdc0b1c62bf4fa3da54725ecae05, type: 3}
   m_PrefabInstance: {fileID: 1320463838}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &29559200 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2094153462547927652, guid: 8f54fdc0b1c62bf4fa3da54725ecae05, type: 3}
+  m_PrefabInstance: {fileID: 1320463838}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 29559192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60523e0647cc6ab43acc73cb266a32a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &29559207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 29559192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aae94e675982ac84ca60206a93985a96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  socket: {fileID: 29559200}
+  spawnPoint: {fileID: 630573022}
+  photosPrefab: {fileID: 1618252538695931112, guid: cb082ce662fb5494288791d74ea18618, type: 3}
+  monsteraPrefab: {fileID: 1491873058124376965, guid: 7c7c95c7288d05c4e82fd15612835761, type: 3}
+  violetaPrefab: {fileID: 132877659074530079, guid: 42f5b43c2324dde4b8bf08b27debadfe, type: 3}
+  tulipanPrefab: {fileID: 7077831714205203090, guid: 45cb56319386d584f8c55bdad27eb78e, type: 3}
+  amarilisPrefab: {fileID: 4009503205391781614, guid: 8afe6e9b6ecac484db0074e580458224, type: 3}
 --- !u!1 &36369590
 GameObject:
   m_ObjectHideFlags: 0
@@ -1338,6 +1368,36 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1867722209573134095, guid: da531879640803f4cb27b522837758c0, type: 3}
   m_PrefabInstance: {fileID: 294940686}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &174612594 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5316933896654966244, guid: da531879640803f4cb27b522837758c0, type: 3}
+  m_PrefabInstance: {fileID: 294940686}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 174612586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60523e0647cc6ab43acc73cb266a32a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &174612601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 174612586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aae94e675982ac84ca60206a93985a96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  socket: {fileID: 174612594}
+  spawnPoint: {fileID: 913793436}
+  photosPrefab: {fileID: 1618252538695931112, guid: cb082ce662fb5494288791d74ea18618, type: 3}
+  monsteraPrefab: {fileID: 1491873058124376965, guid: 7c7c95c7288d05c4e82fd15612835761, type: 3}
+  violetaPrefab: {fileID: 132877659074530079, guid: 42f5b43c2324dde4b8bf08b27debadfe, type: 3}
+  tulipanPrefab: {fileID: 7077831714205203090, guid: 45cb56319386d584f8c55bdad27eb78e, type: 3}
+  amarilisPrefab: {fileID: 4009503205391781614, guid: 8afe6e9b6ecac484db0074e580458224, type: 3}
 --- !u!1 &177505292
 GameObject:
   m_ObjectHideFlags: 0
@@ -6183,6 +6243,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Prefab_Maceta_4
       objectReference: {fileID: 0}
+    - target: {fileID: 2749837554067705327, guid: d173996ecb8b4fe4ea6e5d34055771da, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3529043149077862838, guid: d173996ecb8b4fe4ea6e5d34055771da, type: 3}
       propertyPath: m_InteractionManager
       value: 
@@ -6234,7 +6298,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1892047443251486464, guid: d173996ecb8b4fe4ea6e5d34055771da, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1528834933}
   m_SourcePrefab: {fileID: 100100000, guid: d173996ecb8b4fe4ea6e5d34055771da, type: 3}
 --- !u!1 &259836033
 GameObject:
@@ -6360,6 +6427,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1174742541190639178, guid: da531879640803f4cb27b522837758c0, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1867722209573134095, guid: da531879640803f4cb27b522837758c0, type: 3}
       propertyPath: m_Name
       value: Prefab_Maceta_2
@@ -6415,7 +6486,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1867722209573134095, guid: da531879640803f4cb27b522837758c0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 174612601}
   m_SourcePrefab: {fileID: 100100000, guid: da531879640803f4cb27b522837758c0, type: 3}
 --- !u!1 &309142623
 GameObject:
@@ -6579,10 +6653,17 @@ PrefabInstance:
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 1772749993}
+    - target: {fileID: 8338770402591838955, guid: 2bb03decc60fa6946848b2327e61eb64, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3606852285937703812, guid: 2bb03decc60fa6946848b2327e61eb64, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1533642144}
   m_SourcePrefab: {fileID: 100100000, guid: 2bb03decc60fa6946848b2327e61eb64, type: 3}
 --- !u!1 &323096525
 GameObject:
@@ -12155,6 +12236,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 624968589}
   m_CullTransparentMesh: 1
+--- !u!4 &630573022 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1938643405997879546, guid: 8f54fdc0b1c62bf4fa3da54725ecae05, type: 3}
+  m_PrefabInstance: {fileID: 1320463838}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &645020839
 GameObject:
   m_ObjectHideFlags: 0
@@ -13057,6 +13143,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 911707486}
   m_CullTransparentMesh: 1
+--- !u!4 &913793436 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2634312052064377670, guid: da531879640803f4cb27b522837758c0, type: 3}
+  m_PrefabInstance: {fileID: 294940686}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &931208125
 GameObject:
   m_ObjectHideFlags: 0
@@ -13247,11 +13338,53 @@ PrefabInstance:
       propertyPath: m_HoverEntered.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 7994059261883457334, guid: c82cc0672b35af744af8380d5205d47e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4968892091141721509, guid: c82cc0672b35af744af8380d5205d47e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1003258684}
   m_SourcePrefab: {fileID: 100100000, guid: c82cc0672b35af744af8380d5205d47e, type: 3}
+--- !u!4 &1003258682 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7654662937058815211, guid: c82cc0672b35af744af8380d5205d47e, type: 3}
+  m_PrefabInstance: {fileID: 1003258681}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1003258683 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5379603970137648990, guid: c82cc0672b35af744af8380d5205d47e, type: 3}
+  m_PrefabInstance: {fileID: 1003258681}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 564473801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60523e0647cc6ab43acc73cb266a32a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1003258684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 564473801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aae94e675982ac84ca60206a93985a96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  socket: {fileID: 1003258683}
+  spawnPoint: {fileID: 1003258682}
+  photosPrefab: {fileID: 1618252538695931112, guid: cb082ce662fb5494288791d74ea18618, type: 3}
+  monsteraPrefab: {fileID: 1491873058124376965, guid: 7c7c95c7288d05c4e82fd15612835761, type: 3}
+  violetaPrefab: {fileID: 132877659074530079, guid: 42f5b43c2324dde4b8bf08b27debadfe, type: 3}
+  tulipanPrefab: {fileID: 7077831714205203090, guid: 45cb56319386d584f8c55bdad27eb78e, type: 3}
+  amarilisPrefab: {fileID: 4009503205391781614, guid: 8afe6e9b6ecac484db0074e580458224, type: 3}
 --- !u!1 &1020468566
 GameObject:
   m_ObjectHideFlags: 0
@@ -13742,6 +13875,11 @@ Transform:
   - {fileID: 1145945264}
   m_Father: {fileID: 1832260793}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1124064160 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1832375859954800915, guid: d173996ecb8b4fe4ea6e5d34055771da, type: 3}
+  m_PrefabInstance: {fileID: 222685700}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1131709919
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13836,7 +13974,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 960eba323938e654ba3471b5df7de4a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delayInSeconds: 5
+  delayInSeconds: 3
   objectsToActivate:
   - {fileID: 564473801}
   - {fileID: 174612586}
@@ -14553,6 +14691,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Prefab_Maceta_5
       objectReference: {fileID: 0}
+    - target: {fileID: 6889851597936896769, guid: 8f54fdc0b1c62bf4fa3da54725ecae05, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7158154279062096299, guid: 8f54fdc0b1c62bf4fa3da54725ecae05, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.47500002
@@ -14596,8 +14738,16 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6751177826467196774, guid: 8f54fdc0b1c62bf4fa3da54725ecae05, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 29559207}
   m_SourcePrefab: {fileID: 100100000, guid: 8f54fdc0b1c62bf4fa3da54725ecae05, type: 3}
+--- !u!4 &1355356687 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8311647500675039685, guid: 2bb03decc60fa6946848b2327e61eb64, type: 3}
+  m_PrefabInstance: {fileID: 313320490}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1375968722
 GameObject:
   m_ObjectHideFlags: 0
@@ -15186,6 +15336,36 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1892047443251486464, guid: d173996ecb8b4fe4ea6e5d34055771da, type: 3}
   m_PrefabInstance: {fileID: 222685700}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1528834926 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4021821947818814369, guid: d173996ecb8b4fe4ea6e5d34055771da, type: 3}
+  m_PrefabInstance: {fileID: 222685700}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1528834918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60523e0647cc6ab43acc73cb266a32a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1528834933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1528834918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aae94e675982ac84ca60206a93985a96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  socket: {fileID: 1528834926}
+  spawnPoint: {fileID: 1124064160}
+  photosPrefab: {fileID: 1618252538695931112, guid: cb082ce662fb5494288791d74ea18618, type: 3}
+  monsteraPrefab: {fileID: 1491873058124376965, guid: 7c7c95c7288d05c4e82fd15612835761, type: 3}
+  violetaPrefab: {fileID: 132877659074530079, guid: 42f5b43c2324dde4b8bf08b27debadfe, type: 3}
+  tulipanPrefab: {fileID: 7077831714205203090, guid: 45cb56319386d584f8c55bdad27eb78e, type: 3}
+  amarilisPrefab: {fileID: 4009503205391781614, guid: 8afe6e9b6ecac484db0074e580458224, type: 3}
 --- !u!1 &1533123602
 GameObject:
   m_ObjectHideFlags: 0
@@ -20024,6 +20204,36 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3606852285937703812, guid: 2bb03decc60fa6946848b2327e61eb64, type: 3}
   m_PrefabInstance: {fileID: 313320490}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1533642137 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8227275608925734277, guid: 2bb03decc60fa6946848b2327e61eb64, type: 3}
+  m_PrefabInstance: {fileID: 313320490}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1533642129}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60523e0647cc6ab43acc73cb266a32a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1533642144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1533642129}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aae94e675982ac84ca60206a93985a96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  socket: {fileID: 1533642137}
+  spawnPoint: {fileID: 1355356687}
+  photosPrefab: {fileID: 1618252538695931112, guid: cb082ce662fb5494288791d74ea18618, type: 3}
+  monsteraPrefab: {fileID: 1491873058124376965, guid: 7c7c95c7288d05c4e82fd15612835761, type: 3}
+  violetaPrefab: {fileID: 132877659074530079, guid: 42f5b43c2324dde4b8bf08b27debadfe, type: 3}
+  tulipanPrefab: {fileID: 7077831714205203090, guid: 45cb56319386d584f8c55bdad27eb78e, type: 3}
+  amarilisPrefab: {fileID: 4009503205391781614, guid: 8afe6e9b6ecac484db0074e580458224, type: 3}
 --- !u!1 &1570563317
 GameObject:
   m_ObjectHideFlags: 0
