@@ -13155,6 +13155,7 @@ MonoBehaviour:
       m_SingletonActionBindings: []
       m_Flags: 0
     m_Reference: {fileID: -3599823989380923159, guid: b6d5c44ebe3244b7692e81ae8265eb22, type: 3}
+  popUpSound: {fileID: 0}
 --- !u!4 &971231428
 Transform:
   m_ObjectHideFlags: 0
@@ -25876,6 +25877,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipText: {fileID: 1055056119}
   tipWindow: {fileID: 1973109858}
+  popUpClip: {fileID: 8300000, guid: f203698f6e7395e4daa616182422c166, type: 3}
 --- !u!4 &1848207116
 Transform:
   m_ObjectHideFlags: 0
@@ -26786,6 +26788,7 @@ MonoBehaviour:
       m_SingletonActionBindings: []
       m_Flags: 0
     m_Reference: {fileID: -4221342869458802512, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  popUpSound: {fileID: 8300000, guid: f203698f6e7395e4daa616182422c166, type: 3}
 --- !u!114 &2093330049
 MonoBehaviour:
   m_ObjectHideFlags: 0

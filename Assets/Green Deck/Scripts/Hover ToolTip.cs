@@ -6,6 +6,9 @@ public class HoverManager : MonoBehaviour
 {
     public TextMeshProUGUI tipText;
     public RectTransform tipWindow;
+
+    [Header("Sound")]
+    public AudioClip popUpClip;
     
     // Acciones estáticas para llamar desde cualquier carta
     public static Action<string, Vector3> OnMouseHover;
@@ -33,6 +36,8 @@ public class HoverManager : MonoBehaviour
 
         tipWindow.gameObject.SetActive(true);
         tipWindow.transform.position = position;
+        AudioSource.PlayClipAtPoint (popUpClip, transform.position);
+
     }
 
     private void HideToolTip()

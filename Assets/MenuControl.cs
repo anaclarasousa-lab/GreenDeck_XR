@@ -23,7 +23,10 @@ public class MenuControl: MonoBehaviour
     private void ToggleMenu(InputAction.CallbackContext context)
     {
         menuPanel.SetActive(!menuPanel.activeSelf);
-        AudioSource.PlayClipAtPoint (popUp, transform.position);
+        if (popUp != null)
+        {
+         AudioSource.PlayClipAtPoint(popUp, Camera.main.transform.position);
+        }
     }
     private void OnDeviceChange (InputDevice device, InputDeviceChange change)
     {
