@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Photos
   m_EditorClassIdentifier: 
   plantName: Photos
-  cardPrefab: {fileID: 2487384038325122548, guid: 258b906a6b6c0da42b7154ecde9dc3f9, type: 3}
+  cardPrefab: {fileID: 5623458879144006680, guid: 0e0ec71a31691b54d89d6bb7538d6338, type: 3}
   plantPrefab: {fileID: 1618252538695931112, guid: cb082ce662fb5494288791d74ea18618, type: 3}
   isUnlocked: 1
   timesPlanted: 0

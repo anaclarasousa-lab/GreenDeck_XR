@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Amarilis
   m_EditorClassIdentifier: 
   plantName: Amarilis
-  cardPrefab: {fileID: 5848008305681396517, guid: 78156a397ee9b214782c2e1abfe01d03, type: 3}
+  cardPrefab: {fileID: 2051236572874353481, guid: f2938c4155d2b0d48a94f2885b528073, type: 3}
   plantPrefab: {fileID: 4009503205391781614, guid: 8afe6e9b6ecac484db0074e580458224, type: 3}
   isUnlocked: 0
   timesPlanted: 0
