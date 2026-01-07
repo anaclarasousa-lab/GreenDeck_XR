@@ -6,6 +6,10 @@ public class MenuControl: MonoBehaviour
     public GameObject menuPanel; // Arrastra tu Canvas aquí
     public InputActionReference openMenuAction; // El botón del mando
 
+    [Header("Sound")]
+
+    public AudioClip popUp; 
+
     private void Awake() {
         openMenuAction.action.Enable();
         openMenuAction.action.performed += ToggleMenu;
@@ -19,6 +23,7 @@ public class MenuControl: MonoBehaviour
     private void ToggleMenu(InputAction.CallbackContext context)
     {
         menuPanel.SetActive(!menuPanel.activeSelf);
+        AudioSource.PlayClipAtPoint (popUp, transform.position);
     }
     private void OnDeviceChange (InputDevice device, InputDeviceChange change)
     {

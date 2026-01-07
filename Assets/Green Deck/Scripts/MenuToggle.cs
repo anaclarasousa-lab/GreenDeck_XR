@@ -6,6 +6,7 @@ public class MenuToggle : MonoBehaviour
     public GameObject menuObject; // Tu Canvas con el Lazy Follow
     public InputActionProperty toggleButton; // La referencia al botón del mando
 
+
     void Update()
     {
         // Verifica si el botón fue presionado en este frame

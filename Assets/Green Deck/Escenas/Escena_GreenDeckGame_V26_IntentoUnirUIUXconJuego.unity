@@ -6285,6 +6285,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   menuPanel: {fileID: 259836033}
   openMenuAction: {fileID: -3599823989380923159, guid: b6d5c44ebe3244b7692e81ae8265eb22, type: 3}
+  popUp: {fileID: 8300000, guid: f203698f6e7395e4daa616182422c166, type: 3}
 --- !u!114 &259836036
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12414,6 +12415,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 8300000, guid: 1a1757e04947fe94aa4d913d9a9ce480, type: 3}
+        m_TargetAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+        m_MethodName: set_name
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Sonido_Carta
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &780707828
@@ -20016,6 +20029,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   allPlants: []
+  unlocking: {fileID: 8300000, guid: 46faad5052f298e4fb7b4667235c0e18, type: 3}
+  locking: {fileID: 0}
 --- !u!4 &1570563319
 Transform:
   m_ObjectHideFlags: 0
@@ -26356,7 +26371,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 1874231409}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -26561,6 +26576,8 @@ MonoBehaviour:
   AmarilisPosition: {fileID: 164238284}
   amarilisData: {fileID: 11400000, guid: e44dcccf250de4f479fd1b6dfc43cc54, type: 2}
   tooltipObject: {fileID: 421405274}
+  spawnClip: {fileID: 8300000, guid: 1a1757e04947fe94aa4d913d9a9ce480, type: 3}
+  unlockedClip: {fileID: 0}
 --- !u!4 &2030656478
 Transform:
   m_ObjectHideFlags: 0

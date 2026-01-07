@@ -4,6 +4,10 @@ using System.Collections.Generic;
 public class progressionManager : MonoBehaviour
 {
     public List <PlantData> allPlants;
+
+    [Header("Sounds")]
+    public AudioClip unlocking; 
+    public AudioClip locking;  
     
    
     public void CheckUnlocks()

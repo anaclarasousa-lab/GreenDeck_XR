@@ -2,9 +2,12 @@ using System.Numerics;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using Microsoft.VisualBasic;
 
 public class spawner : MonoBehaviour
 {
+    [Header("Plantas")]
+
     public GameObject Photos;
     public Transform PhotosPosition;
     public GameObject Monstera;
@@ -19,8 +22,14 @@ public class spawner : MonoBehaviour
     public GameObject Amarilis;
     public Transform AmarilisPosition;
     public PlantData amarilisData; 
+    
+    [Header("Notificaciones")]
+
     public GameObject tooltipObject;
 
+    [Header("Sonido")]
+    public AudioClip spawnClip;
+    public AudioClip unlockedClip;
 
 
 
@@ -33,6 +42,8 @@ public class spawner : MonoBehaviour
             UnityEngine.Quaternion spawnPhotosRot = UnityEngine.Quaternion.Euler(0, -90, 0);
             Instantiate(Photos, spawnPhotosPos, spawnPhotosRot);
 
+            AudioSource.PlayClipAtPoint (spawnClip, transform.position);
+
         }
 
     }
@@ -40,7 +51,11 @@ public class spawner : MonoBehaviour
     {
          if(Monstera != null && MonsteraPosition != null)
         {
-            Instantiate(Monstera, MonsteraPosition.position, MonsteraPosition.rotation);
+            UnityEngine.Vector3  spawnMonsteraPos = MonsteraPosition.position;
+            UnityEngine.Quaternion spawnMonsteraRot = UnityEngine.Quaternion.Euler(0, -90, 0);
+            Instantiate(Monstera, spawnMonsteraPos, spawnMonsteraRot);
+
+            AudioSource.PlayClipAtPoint (spawnClip, transform.position);
 
         }
     }
@@ -48,7 +63,11 @@ public class spawner : MonoBehaviour
     {
         if(Violeta != null && VioletaPosition != null)
         {
-            Instantiate(Violeta, VioletaPosition.position, VioletaPosition.rotation);
+            UnityEngine.Vector3  spawnVioletaPos = VioletaPosition.position;
+            UnityEngine.Quaternion spawnVioletaRot = UnityEngine.Quaternion.Euler(0, -90, 0);
+            Instantiate(Violeta, spawnVioletaPos,spawnVioletaRot);
+
+            AudioSource.PlayClipAtPoint (spawnClip, transform.position);
 
         }
     }
@@ -56,7 +75,11 @@ public class spawner : MonoBehaviour
     {
         if(Tulipan != null && TulipanPosition != null)
         {
-            Instantiate(Tulipan, TulipanPosition.position, TulipanPosition.rotation);
+            UnityEngine.Vector3  spawnTulipanPos = TulipanPosition.position;
+            UnityEngine.Quaternion spawnTulipanRot = UnityEngine.Quaternion.Euler(0, -90, 0);
+            Instantiate(Violeta, spawnTulipanPos,spawnTulipanRot);
+
+            AudioSource.PlayClipAtPoint (spawnClip, transform.position);
 
         }    
     }
@@ -69,6 +92,8 @@ public class spawner : MonoBehaviour
                 UnityEngine.Vector3  spawnAmarilisPos = AmarilisPosition.position;
                 UnityEngine.Quaternion spawnAmarilisRot = UnityEngine.Quaternion.Euler(0, -90, 0);
                 Instantiate(Amarilis, spawnAmarilisPos, spawnAmarilisRot);
+
+                AudioSource.PlayClipAtPoint (spawnClip, transform.position);
 
 
                 }
